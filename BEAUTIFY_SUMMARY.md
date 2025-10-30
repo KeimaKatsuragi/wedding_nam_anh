@@ -4,12 +4,12 @@
 
 ### 📊 Kết quả
 
-| Loại file     | Số lượng     | Trạng thái                          | Tổng dòng code    |
-| ------------- | ------------ | ----------------------------------- | ----------------- |
-| HTML          | 1 file       | ⚠️ Giữ nguyên (quá phức tạp)       | 221 dòng          |
-| JavaScript    | 68 files     | ✅ 100% beautified                  | ~15,000+ dòng     |
-| CSS           | 2 files      | ✅ 100% beautified                  | ~13,500 dòng      |
-| **Tổng cộng** | **71 files** | **✅ 70/71 beautified (98.6%)**     | **~28,721+ dòng** |
+| Loại file     | Số lượng     | Trạng thái                      | Tổng dòng code    |
+| ------------- | ------------ | ------------------------------- | ----------------- |
+| HTML          | 1 file       | ⚠️ Giữ nguyên (quá phức tạp)    | 221 dòng          |
+| JavaScript    | 68 files     | ✅ 100% beautified              | ~15,000+ dòng     |
+| CSS           | 2 files      | ✅ 100% beautified              | ~13,500 dòng      |
+| **Tổng cộng** | **71 files** | **✅ 70/71 beautified (98.6%)** | **~28,721+ dòng** |
 
 ---
 
@@ -29,13 +29,13 @@
 
 ```html
 <!-- Trước beautify (working) -->
-<link rel="stylesheet" href="css/main.css"/>
+<link rel="stylesheet" href="css/main.css" />
 
 <!-- Sau BeautifulSoup (broken) -->
 <div 'arial'; color: rgb(102, 102, 102); font-size: 16px; font-style: normal;>
 
 <!-- Sau jsbeautifier (broken syntax) -->
-<link rel = "stylesheet" href = "css/main.css" />
+<link rel="stylesheet" href="css/main.css" />
 ```
 
 ### ✅ JavaScript Files (68 files)

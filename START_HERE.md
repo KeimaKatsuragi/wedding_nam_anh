@@ -6,12 +6,12 @@ Tôi đã **beautify và format lại TOÀN BỘ code** của website thiệp c�
 
 ### 📊 Thống kê
 
-- ✅ **71 files** đã được beautified
-  - **1 HTML file** (~1,737 dòng)
-  - **68 JavaScript files** (~15,000+ dòng)
-  - **2 CSS files** (~13,500 dòng)
-- ✅ **240,000+ dòng code** đã được thêm/format lại
-- ✅ **5 file tài liệu** đã được tạo
+- ✅ **70/71 files** đã được beautified (98.6%)
+  - **1 HTML file** - ⚠️ Giữ nguyên (quá phức tạp, chỉ thêm header)
+  - **68 JavaScript files** - ✅ 100% beautified (~15,000+ dòng)
+  - **2 CSS files** - ✅ 100% beautified (~13,500 dòng)
+- ✅ **~28,500+ dòng code** đã được beautified
+- ✅ **6 file tài liệu** đã được tạo
 
 ### 🔧 Công việc đã thực hiện
 
@@ -28,20 +28,27 @@ Tôi đã **beautify và format lại TOÀN BỘ code** của website thiệp c�
    - Thêm header comments
    - Format với indent 2 spaces
 
-3. **Chạy beautify**
+3. **Tạo script HTML header** (`add_html_header.py`)
+
+   - Thêm header comment cho HTML
+   - KHÔNG beautify HTML (quá phức tạp)
+   - Giữ nguyên code gốc
+
+4. **Chạy beautify**
 
    ```bash
    python beautify_all.py
+   python add_html_header.py
    ```
 
-4. **Tạo tài liệu**
+5. **Tạo tài liệu**
 
    - `README_BEAUTIFIED.md` - Hướng dẫn chi tiết
    - `FILE_INDEX.md` - Danh mục từng file
    - `BEAUTIFY_SUMMARY.md` - Tóm tắt kết quả
    - `START_HERE.md` - File bắt đầu (file này)
 
-5. **Commit và push lên GitHub**
+6. **Commit và push lên GitHub**
    ```bash
    git add -A
    git commit -m "✨ Beautify all files"

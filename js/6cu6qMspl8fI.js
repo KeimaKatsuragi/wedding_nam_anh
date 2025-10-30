@@ -5,6 +5,13 @@
  *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
  */
 
+/**
+ * File: 6cu6qMspl8fI.js
+ * Mô tả: Code đã được beautify và format lại để dễ đọc
+ * Lưu ý: Code gốc đã được minified/obfuscated, 
+ *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
+ */
+
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [5017], {
     78290: function(r, o, e) {

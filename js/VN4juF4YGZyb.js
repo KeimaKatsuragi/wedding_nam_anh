@@ -5,6 +5,13 @@
  *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
  */
 
+/**
+ * File: VN4juF4YGZyb.js
+ * Mô tả: Code đã được beautify và format lại để dễ đọc
+ * Lưu ý: Code gốc đã được minified/obfuscated, 
+ *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
+ */
+
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [3714], {
     42474: function(t, e, r) {

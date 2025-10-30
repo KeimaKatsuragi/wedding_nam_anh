@@ -5,6 +5,13 @@
  *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
  */
 
+/**
+ * File: i80ihKAhRHpW.js
+ * Mô tả: Code đã được beautify và format lại để dễ đọc
+ * Lưu ý: Code gốc đã được minified/obfuscated, 
+ *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
+ */
+
 self.__BUILD_MANIFEST = function(s, a, c, t, e, d, i, h, n, b, u, p, f, k, o, r, g, j, l, m, w, _, y, v, S, I, x, B, F, A, D, E, L, M, N, T, U, C, P, q, z, G, H, J, K, O, Q, R, V, W, X, Y, Z, $, ss, sa, sc, st, se, sd, si, sh, sn, sb, su, sp, sf, sk, so, sr, sg, sj, sl, sm, sw, s_, sy, sv, sS, sI, sx, sB, sF, sA) {
   return {
     __rewrites: {

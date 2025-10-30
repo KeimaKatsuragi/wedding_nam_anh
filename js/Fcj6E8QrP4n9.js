@@ -5,6 +5,13 @@
  *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
  */
 
+/**
+ * File: Fcj6E8QrP4n9.js
+ * Mô tả: Code đã được beautify và format lại để dễ đọc
+ * Lưu ý: Code gốc đã được minified/obfuscated, 
+ *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
+ */
+
 ! function() {
   "use strict";
   var e, t, n, r, o, c, u, i, d, a = {},

@@ -5,6 +5,13 @@
  *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
  */
 
+/**
+ * File: main.bundle.js
+ * Mô tả: Code đã được beautify và format lại để dễ đọc
+ * Lưu ý: Code gốc đã được minified/obfuscated, 
+ *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
+ */
+
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [3046], {
     39601: function(e, t, n) {
@@ -134,16 +141,14 @@
               " z-40 flex items-center justify-center bg-white bg-opacity-70 backdrop-blur-sm rounded-full shadow-md hover:bg-opacity-90 transition-all duration-200"
             ),
           "aria-label": E(n) ?
-            "X\xf3a khỏi y\xeau th\xedch" :
-            "Th\xeam v\xe0o y\xeau th\xedch",
+            "X\xf3a khỏi y\xeau th\xedch" : "Th\xeam v\xe0o y\xeau th\xedch",
           children: E(n) ?
             (0, d.jsx)(a.Z, {
               style: {
                 fontSize: T,
                 color: g
               }
-            }) :
-            (0, d.jsx)(c.Z, {
+            }) : (0, d.jsx)(c.Z, {
               style: {
                 fontSize: T,
                 color: g

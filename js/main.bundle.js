@@ -1,7 +1,13 @@
+/**
+ * File: main.bundle.js
+ * Mô tả: Code đã được beautify và format lại để dễ đọc
+ * Lưu ý: Code gốc đã được minified/obfuscated, 
+ *        nên tên biến vẫn giữ nguyên (e, t, n, r, ...)
+ */
+
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
-  [3046],
-  {
-    39601: function (e, t, n) {
+  [3046], {
+    39601: function(e, t, n) {
       "use strict";
       var r = n(50029),
         i = n(87794),
@@ -14,7 +20,7 @@
         u = n(11163),
         h = n(71725),
         d = n(85893);
-      t.Z = function (e) {
+      t.Z = function(e) {
         var t,
           n = e.templateId,
           i = e.position,
@@ -33,17 +39,17 @@
           z = k.toggleFavorite,
           E = k.isFavorite;
         (0, s.useEffect)(
-          function () {
+          function() {
             j && P();
           },
           [j, P]
         );
         var S =
-            ((t = (0, r.Z)(
+          ((t = (0, r.Z)(
               o().mark(function e() {
                 var t;
                 return o().wrap(
-                  function (e) {
+                  function(e) {
                     for (;;)
                       switch ((e.prev = e.next)) {
                         case 0:
@@ -69,21 +75,21 @@
                             y(!0), (e.prev = 7), (t = E(n)), (e.next = 11), z(n)
                           );
                         case 11:
-                          e.sent
-                            ? l.ZP.success(
-                                t
-                                  ? "Đ\xe3 x\xf3a khỏi danh s\xe1ch y\xeau th\xedch"
-                                  : "Đ\xe3 th\xeam v\xe0o danh s\xe1ch y\xeau th\xedch"
-                              )
-                            : l.ZP.error(
-                                "Kh\xf4ng thể cập nhật trạng th\xe1i y\xeau th\xedch. Vui l\xf2ng thử lại sau."
-                              ),
+                          e.sent ?
+                            l.ZP.success(
+                              t ?
+                              "Đ\xe3 x\xf3a khỏi danh s\xe1ch y\xeau th\xedch" :
+                              "Đ\xe3 th\xeam v\xe0o danh s\xe1ch y\xeau th\xedch"
+                            ) :
+                            l.ZP.error(
+                              "Kh\xf4ng thể cập nhật trạng th\xe1i y\xeau th\xedch. Vui l\xf2ng thử lại sau."
+                            ),
                             (e.next = 19);
                           break;
                         case 15:
                           (e.prev = 15),
-                            (e.t0 = e.catch(7)),
-                            console.error(
+                          (e.t0 = e.catch(7)),
+                          console.error(
                               "Error updating favorite status:",
                               e.t0
                             ),
@@ -99,42 +105,60 @@
                   },
                   e,
                   null,
-                  [[7, 15, 19, 22]]
+                  [
+                    [7, 15, 19, 22]
+                  ]
                 );
               })
             )),
-            function () {
+            function() {
               return t.apply(this, arguments);
             }),
-          T = { small: 20, medium: 24, large: 32 }[v];
+          T = {
+            small: 20,
+            medium: 24,
+            large: 32
+          } [v];
         return (0, d.jsx)("button", {
           onClick: S,
           disabled: w,
           className: ""
             .concat(void 0 !== x && x ? "block" : "absolute", " ")
             .concat("small" === v ? "w-8 h-8" : "w-10 h-10", " ")
-            .concat(
-              { "top-right": "top-3 right-3", "top-left": "top-3 left-3" }[
+            .concat({
+                "top-right": "top-3 right-3",
+                "top-left": "top-3 left-3"
+              } [
                 void 0 === i ? "top-right" : i
               ],
               " z-40 flex items-center justify-center bg-white bg-opacity-70 backdrop-blur-sm rounded-full shadow-md hover:bg-opacity-90 transition-all duration-200"
             ),
-          "aria-label": E(n)
-            ? "X\xf3a khỏi y\xeau th\xedch"
-            : "Th\xeam v\xe0o y\xeau th\xedch",
-          children: E(n)
-            ? (0, d.jsx)(a.Z, { style: { fontSize: T, color: g } })
-            : (0, d.jsx)(c.Z, { style: { fontSize: T, color: g } }),
+          "aria-label": E(n) ?
+            "X\xf3a khỏi y\xeau th\xedch" :
+            "Th\xeam v\xe0o y\xeau th\xedch",
+          children: E(n) ?
+            (0, d.jsx)(a.Z, {
+              style: {
+                fontSize: T,
+                color: g
+              }
+            }) :
+            (0, d.jsx)(c.Z, {
+              style: {
+                fontSize: T,
+                color: g
+              }
+            }),
         });
       };
     },
-    76292: function (e, t, n) {
+    76292: function(e, t, n) {
       "use strict";
       var r = n(19848),
         i = n.n(r);
       n(67294);
       var o = n(85893);
-      t.Z = function (e) {
+      t.Z = function(e) {
         var t = e.children,
           n = e.containerWidth;
         return (0, o.jsxs)("div", {
@@ -181,11 +205,11 @@
         });
       };
     },
-    57066: function (e, t, n) {
+    57066: function(e, t, n) {
       "use strict";
       n.r(t),
         n.d(t, {
-          __N_SSP: function () {
+          __N_SSP: function() {
             return C;
           },
         });
@@ -217,39 +241,41 @@
         S = n(84416),
         T = n(85893),
         Z = ["editorViewportWidth"];
+
       function _(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var r = Object.getOwnPropertySymbols(e);
           t &&
-            (r = r.filter(function (t) {
+            (r = r.filter(function(t) {
               return Object.getOwnPropertyDescriptor(e, t).enumerable;
             })),
             n.push.apply(n, r);
         }
         return n;
       }
+
       function N(e) {
         for (var t = 1; t < arguments.length; t++) {
           var n = null != arguments[t] ? arguments[t] : {};
-          t % 2
-            ? _(Object(n), !0).forEach(function (t) {
-                (0, i.Z)(e, t, n[t]);
-              })
-            : Object.getOwnPropertyDescriptors
-            ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
-            : _(Object(n)).forEach(function (t) {
-                Object.defineProperty(
-                  e,
-                  t,
-                  Object.getOwnPropertyDescriptor(n, t)
-                );
-              });
+          t % 2 ?
+            _(Object(n), !0).forEach(function(t) {
+              (0, i.Z)(e, t, n[t]);
+            }) :
+            Object.getOwnPropertyDescriptors ?
+            Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) :
+            _(Object(n)).forEach(function(t) {
+              Object.defineProperty(
+                e,
+                t,
+                Object.getOwnPropertyDescriptor(n, t)
+              );
+            });
         }
         return e;
       }
       var C = !0;
-      t.default = function (e) {
+      t.default = function(e) {
         var t = e.templateData,
           n = e.templateId,
           i = e.canonicalUrl,
@@ -260,41 +286,43 @@
           C = _[0],
           R = _[1];
         (0, p.useEffect)(
-          function () {
+          function() {
             var e;
             u(n),
               ((e = (0, a.Z)(
-                s().mark(function e() {
-                  return s().wrap(
-                    function (e) {
-                      for (;;)
-                        switch ((e.prev = e.next)) {
-                          case 0:
-                            return (e.prev = 0), (e.next = 3), (0, j.YR)(n);
-                          case 3:
-                            e.next = 8;
-                            break;
-                          case 5:
-                            (e.prev = 5),
+                  s().mark(function e() {
+                    return s().wrap(
+                      function(e) {
+                        for (;;)
+                          switch ((e.prev = e.next)) {
+                            case 0:
+                              return (e.prev = 0), (e.next = 3), (0, j.YR)(n);
+                            case 3:
+                              e.next = 8;
+                              break;
+                            case 5:
+                              (e.prev = 5),
                               (e.t0 = e.catch(0)),
                               console.error(
                                 "Error tracking template view:",
                                 e.t0
                               );
-                          case 8:
-                          case "end":
-                            return e.stop();
-                        }
-                    },
-                    e,
-                    null,
-                    [[0, 5]]
-                  );
-                })
-              )),
-              function () {
-                return e.apply(this, arguments);
-              })();
+                            case 8:
+                            case "end":
+                              return e.stop();
+                          }
+                      },
+                      e,
+                      null,
+                      [
+                        [0, 5]
+                      ]
+                    );
+                  })
+                )),
+                function() {
+                  return e.apply(this, arguments);
+                })();
           },
           [n, c, t.slug]
         );
@@ -302,7 +330,7 @@
           D = (0, p.useState)(!0),
           I = D[0],
           B = D[1],
-          M = (0, p.useMemo)(function () {
+          M = (0, p.useMemo)(function() {
             return (0, S.$)(L);
           }, []),
           V = (0, p.useState)(L),
@@ -312,22 +340,20 @@
           H = X[0],
           q = X[1];
         (0, p.useEffect)(
-          function () {
-            var e = function () {
+          function() {
+            var e = function() {
               B(!0);
               var e = parseInt(L.ROOT.props.width),
                 t = parseInt(L.ROOT.props.height),
                 n = H / e,
                 i = Math.max(t * n, 0.9 * window.innerHeight),
-                a = Object.entries(L).reduce(function (e, t) {
+                a = Object.entries(L).reduce(function(e, t) {
                   var r = (0, o.Z)(t, 2),
                     i = r[0],
                     a = r[1];
                   if (!a.props) return (e[i] = a), e;
                   var c = N(
-                    N({}, a.props),
-                    {},
-                    {
+                    N({}, a.props), {}, {
                       top: a.props.top * n,
                       left: a.props.left * n,
                       width: a.props.width * n,
@@ -335,43 +361,48 @@
                       fontSize: a.props.fontSize * n,
                     }
                   );
-                  return (e[i] = N(N({}, a), {}, { props: c })), e;
+                  return (e[i] = N(N({}, a), {}, {
+                    props: c
+                  })), e;
                 }, {}),
                 c = L.ROOT.props,
                 s = (c.editorViewportWidth, (0, r.Z)(c, Z));
               (a.ROOT = N(
-                N({}, L.ROOT),
-                {},
-                { props: N(N({}, s), {}, { width: H, height: i }) }
+                N({}, L.ROOT), {}, {
+                  props: N(N({}, s), {}, {
+                    width: H,
+                    height: i
+                  })
+                }
               )),
-                W(a),
-                setTimeout(function () {
+              W(a),
+                setTimeout(function() {
                   B(!1);
                 }, 1e3);
             };
             return (
               window.addEventListener("resize", e),
               e(),
-              function () {
+              function() {
                 return window.removeEventListener("resize", e);
               }
             );
           },
           [H]
         ),
-          (0, p.useEffect)(function () {
-            var e = function () {
-              var e = Math.round(0.55 * (0.9 * window.innerHeight));
-              e > 500 ? q(500) : q(e);
-            };
-            return (
-              e(),
-              window.addEventListener("resize", e),
-              function () {
-                return window.removeEventListener("resize", e);
-              }
-            );
-          }, []);
+        (0, p.useEffect)(function() {
+          var e = function() {
+            var e = Math.round(0.55 * (0.9 * window.innerHeight));
+            e > 500 ? q(500) : q(e);
+          };
+          return (
+            e(),
+            window.addEventListener("resize", e),
+            function() {
+              return window.removeEventListener("resize", e);
+            }
+          );
+        }, []);
         var G = ""
           .concat(t.templateName, " - ")
           .concat((0, z.g)(t.categoryId), " miễn ph\xed");
@@ -388,14 +419,12 @@
                 url: i,
                 title: G,
                 description: "".concat(G, " - Thiệp online tr\xean CineLove"),
-                images: [
-                  {
-                    url: t.thumbnail || "/cinelove-default-thumbnail.jpg",
-                    width: 1200,
-                    height: 630,
-                    alt: G,
-                  },
-                ],
+                images: [{
+                  url: t.thumbnail || "/cinelove-default-thumbnail.jpg",
+                  width: 1200,
+                  height: 630,
+                  alt: G,
+                }, ],
                 siteName: "CineLove",
               },
               twitter: {
@@ -420,21 +449,24 @@
                   hasEnvelope: M,
                   children: [
                     I &&
-                      (0, T.jsx)("div", {
-                        className:
-                          "absolute inset-0 bg-white z-50 flex items-center justify-center",
-                        children: (0, T.jsx)(f(), {
-                          animationData: v,
-                          loop: !0,
-                          style: { width: 200, height: 200 },
-                        }),
+                    (0, T.jsx)("div", {
+                      className: "absolute inset-0 bg-white z-50 flex items-center justify-center",
+                      children: (0, T.jsx)(f(), {
+                        animationData: v,
+                        loop: !0,
+                        style: {
+                          width: 200,
+                          height: 200
+                        },
                       }),
+                    }),
                     (0, T.jsx)(l.ML, {
                       resolver: P.s_,
                       enabled: !1,
                       children: (0, T.jsx)(
-                        l.RQ,
-                        { data: F },
+                        l.RQ, {
+                          data: F
+                        },
                         F.ROOT.props.width
                       ),
                     }),
@@ -446,64 +478,67 @@
               className: "fixed top-2 left-2 z-50",
               children: [
                 !d &&
-                  (0, T.jsx)(O.ZP, {
-                    onClick: function () {
-                      return c.push("/editor-template/".concat(n));
-                    },
-                    children: "Chỉnh sửa mẫu n\xe0y",
-                  }),
+                (0, T.jsx)(O.ZP, {
+                  onClick: function() {
+                    return c.push("/editor-template/".concat(n));
+                  },
+                  children: "Chỉnh sửa mẫu n\xe0y",
+                }),
                 d &&
-                  (0, T.jsx)(O.ZP, {
-                    onClick: function () {
-                      R(!0);
-                    },
-                    type: "primary",
-                    className:
-                      "bg-gradient-to-r from-pink-500 to-purple-600 border-0 hover:from-pink-600 hover:to-purple-700",
-                    children: "Đặt thiệp n\xe0y",
-                  }),
-                (0, T.jsx)(k.Z, { templateId: n, isBlock: !0, size: "medium" }),
+                (0, T.jsx)(O.ZP, {
+                  onClick: function() {
+                    R(!0);
+                  },
+                  type: "primary",
+                  className: "bg-gradient-to-r from-pink-500 to-purple-600 border-0 hover:from-pink-600 hover:to-purple-700",
+                  children: "Đặt thiệp n\xe0y",
+                }),
+                (0, T.jsx)(k.Z, {
+                  templateId: n,
+                  isBlock: !0,
+                  size: "medium"
+                }),
               ],
             }),
             d &&
-              (0, T.jsx)(E.Z, {
-                open: C,
-                onCancel: function () {
-                  return R(!1);
-                },
-                templateId: n,
-                onSuccess: function () {
-                  console.log("Package selection completed successfully");
-                },
-              }),
+            (0, T.jsx)(E.Z, {
+              open: C,
+              onCancel: function() {
+                return R(!1);
+              },
+              templateId: n,
+              onSuccess: function() {
+                console.log("Package selection completed successfully");
+              },
+            }),
           ],
         });
       };
     },
-    54443: function (e, t, n) {
+    54443: function(e, t, n) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/template/pc/[templateSlug]",
-        function () {
+        function() {
           return n(57066);
         },
       ]);
     },
   },
-  function (e) {
+  function(e) {
     e.O(
-      0,
-      [
-        2652, 9358, 8706, 741, 6342, 3662, 4321, 3714, 3365, 6660, 4838, 8845,
-        5970, 8391, 4738, 4817, 594, 711, 509, 2961, 3219, 4106, 296, 8030,
-        1530, 2453, 2552, 2567, 9655, 9078, 1390, 7746, 3340, 5017, 4393, 7743,
-        8499, 5593, 5861, 2352, 1004, 1109, 9150, 7531, 5518, 1365, 7966, 1638,
-        221, 6214, 5968, 8593, 1476, 818, 6199, 5435, 8238, 9730, 4304, 1637,
-        9774, 2888, 179,
-      ],
-      function () {
-        return e((e.s = 54443));
-      }
-    ),
+        0,
+        [
+          2652, 9358, 8706, 741, 6342, 3662, 4321, 3714, 3365, 6660, 4838, 8845,
+          5970, 8391, 4738, 4817, 594, 711, 509, 2961, 3219, 4106, 296, 8030,
+          1530, 2453, 2552, 2567, 9655, 9078, 1390, 7746, 3340, 5017, 4393, 7743,
+          8499, 5593, 5861, 2352, 1004, 1109, 9150, 7531, 5518, 1365, 7966, 1638,
+          221, 6214, 5968, 8593, 1476, 818, 6199, 5435, 8238, 9730, 4304, 1637,
+          9774, 2888, 179,
+        ],
+        function() {
+          return e((e.s = 54443));
+        }
+      ),
       (_N_E = e.O());
   },
 ]);
